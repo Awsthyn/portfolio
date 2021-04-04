@@ -16,7 +16,7 @@ export default function Education() {
               color: "black",
               cursor: e.url ? "pointer" : "default",
             }}
-            href={`${e.url ? e.url : ""}`}
+            href={`${e.url ? e.url : "javascript:void(0)"}`}
             target={e.url ? "_blank" : ""}
           >
             <h5 className="mt-1 pl-4" style={{ width: "45vw" }}>
@@ -44,7 +44,7 @@ export default function Education() {
               color: "black",
               cursor: e.url ? "pointer" : "default",
             }}
-            href={`${e.url ? e.url : ""}`}
+            href={`${e.url ? e.url : "javascript:void(0)"}`}
             target={e.url ? "_blank" : ""}
           >
             <h5 className="mt-1 pl-4" style={{ width: "45vw" }}>

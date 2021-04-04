@@ -56,6 +56,14 @@ const courses = [
 
 const projects = [
 	{
+        id: 8,
+        title: "Web Scrapping + Cron + MongoDB Challenge",
+        description: "Interview Challenge",
+		achievements: ["Web scrapping using NightmareJS and DOM knowledges.", "JWT Token Authentication.", "Simple MongoDB queries."],
+        techs: ["MongoDB", "NightmareJS", "Node", "Express", "Passport", "Moment"],
+        repo: "https://github.com/Awsthyn/lcfc",
+    },
+	{
 		id: 1,
 		title: 'El Potrero',
 		description: 'Web App creada para la ONG El Potrero.',
@@ -97,7 +105,7 @@ const projects = [
         id: 3,
         title: "PERN ToDo",
         description: "App hecha con el stack PERN",
-        achievements: ["Proyecto realizado en FreeCodeCamp, utilizando varias tecnologías.", "Deployada en Heroku.",],
+        achievements: ["Project developed to obtain FreeCodeCamp Front End Libraries Certification, using several technologies.", "Heroku deployment.",],
         techs: ["Node", "Express", "PostgreSQL", "React", "Bootstrap", "Heroku", "Github"],
         repo: "https://github.com/Awsthyn/pern-todo",
         deploy: "https://pern-todo-wagner.herokuapp.com/"
@@ -106,7 +114,7 @@ const projects = [
         id: 4,
         title: "Markdown Previewer",
         description: "Front End Libraries Certification",
-        achievements: ["Proyecto realizado en FreeCodeCamp, utilizando varias tecnologías.", "Deployada en Github.",],
+        achievements: ["Project developed to obtain FreeCodeCamp Front End Libraries Certification, using several technologies.", "GitHub deployment.",],
         techs: ["React", "Bootstrap", "Github", "Marked"],
         repo: "https://github.com/Awsthyn/markdown-previewer",
         deploy: "https://awsthyn.github.io/markdown-previewer/"
@@ -115,7 +123,7 @@ const projects = [
         id: 5,
         title: "Random Quote Machine",
         description: "Front End Libraries Certification",
-        achievements: ["Proyecto realizado en FreeCodeCamp, utilizando varias tecnologías.", "Deployada en Github.",],
+        achievements: ["Project developed to obtain FreeCodeCamp Front End Libraries Certification, using several technologies.", "GitHub deployment.",],
         techs: ["React", "Bootstrap", "Github"],
         repo: "https://github.com/Awsthyn/random-quote-machine",
         deploy: "https://awsthyn.github.io/random-quote-machine/"
@@ -123,13 +131,21 @@ const projects = [
 	{
         id: 6,
         title: "Minesweeper in Ruby on Rails",
-        description: "Challenge de una empresa que necesitaba Ruby Developers",
-		achievements: ["Challenge resuelto en 2 días, sin tener conocimientos de Ruby ni Ruby on Rails.",
-		"La app era muy simple, el reto era resolverlo en un lenguaje que no conocía.",
-		 "Deployada en Heroku.",],
+        description: "Challenge from a company that needed Ruby Developers",
+		achievements: ["Challenge solved in 2 days, with no knowledge of Ruby or Ruby on Rails.",
+		"The app was very simple, the challenge was to solve it in a language I didn't know.",
+		 "Heroku deployment.",],
         techs: ["Ruby", "Ruby on Rails", "Github", "Heroku"],
         repo: "https://github.com/Awsthyn/ruby_minesweeper",
         deploy: "https://lit-hamlet-49836.herokuapp.com/"
+	},
+	{
+        id: 7,
+        title: "Bioinformatics Algorithms",
+        description: "Rosalind Practices",
+		achievements: ["Exercises from rosalind.info, a platform for learning bioinformatics through problem solving."],
+        techs: ["Python"],
+        repo: "https://github.com/Awsthyn/bioinformatics",
     }
 ];
 

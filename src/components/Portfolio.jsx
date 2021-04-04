@@ -8,7 +8,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 export default function Portfolio() {
     return (
         <div className="p-4">
-        {projects.map(e => <div className="d-flex flex-row align-items-center justify-content-between shadow mb-3" style={{backgroundColor: "white", height: "50px",width: "95vw"}}>
+        {projects.map((e, i) => <div key={`project-${i}`} className="d-flex flex-row align-items-center justify-content-between shadow mb-3" style={{backgroundColor: "white", height: "50px",width: "95vw"}}>
         <h5 className="mt-1 pl-4" style={{width: "60vw"}}>{e.title}</h5>
         <div>
         <span data-toggle="modal" data-target={"#Modal"+ e.id} className="mr-2 btn btn-info" ><FontAwesomeIcon icon={faInfoCircle} size="lg" /></span>
