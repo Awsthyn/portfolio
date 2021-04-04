@@ -3,7 +3,7 @@ import './Home.css';
 import Header from "./Header";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDatabase } from '@fortawesome/free-solid-svg-icons'
-import { faGithub, faNodeJs, faReact, faHtml5, faCss3Alt, faJs, faBootstrap } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faNodeJs, faReact, faHtml5, faCss3Alt, faJs, faBootstrap, faPython } from '@fortawesome/free-brands-svg-icons'
 
 
 function Home() {
@@ -24,6 +24,8 @@ function Home() {
       <FontAwesomeIcon className="mr-3" icon={faBootstrap} size="3x" />
       <FontAwesomeIcon className="mr-3" icon={faGithub} size="3x" />
       <FontAwesomeIcon className="mr-3" icon={faDatabase} size="3x" />
+      <FontAwesomeIcon className="mr-3" icon={faPython} size="3x" />
+
 
       </div>
     </div>

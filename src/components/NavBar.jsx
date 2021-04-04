@@ -13,13 +13,16 @@ export default function NavBar() {
   <div className="collapse navbar-collapse" id="navbarNav">
     <ul className="navbar-nav">
       <li className="nav-item">
-      <span role="button" className="nav-link" onClick={()=>history.push('/')}>Inicio</span>
+      <span role="button" className="nav-link" onClick={()=>history.push('/portfolio')}>Home</span>
       </li>
       <li className="nav-item">
-        <span role="button" className="nav-link" onClick={()=>history.push('/portfolio')}>Portfolio</span>
+        <span role="button" className="nav-link" onClick={()=>history.push('/portfolio/portfolio')}>Portfolio</span>
       </li>
       <li className="nav-item">
-        <span className="nav-link" role="button" onClick={()=>history.push('/aboutme')}>Sobre mí</span>
+        <span className="nav-link" role="button" onClick={()=>history.push('/portfolio/aboutme')}>About me</span>
+      </li>
+      <li className="nav-item">
+        <span className="nav-link" role="button" onClick={()=>history.push('/portfolio/contact')}>Contact</span>
       </li>
     </ul>
   </div>
