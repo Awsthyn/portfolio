@@ -27,7 +27,7 @@ export default function Header() {
 					}}
 				>
 					<Typed
-						strings={['Web Design', 'Web Development', 'PERN Stack']}
+						strings={['PERN Stack Web Developer',"React JS - React Native Dev ", 'Future Bioinformatics Specialist', 'Agricultural Engineer']}
 						typeSpeed={40}
 						backSpeed={60}
 						loop

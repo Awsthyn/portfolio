@@ -17,10 +17,10 @@ export default function Detalles({data}) {
         <p className="text-center">{data.description}</p>
         <h6 className="text-center">Description & Achievements</h6>
         <ul>
-        {data.achievements.map(e => <span key={e}><li>{e}</li></span>)}
+        {data.achievements.map((achievement,i) => <span key={"achievement"+i}><li>{achievement}</li></span>)}
         </ul>
         <h6 className="text-center">Technologies </h6>
-        <div className="text-center">{data.techs.map((e, i) => i === data.techs.length - 1 ? <span key={e}>{e + "."}</span> : <span key={e}>{e + ", "}</span>)}</div>
+        <div className="text-center">{data.techs.map((tech, i) => i === data.techs.length - 1 ? <span key={"tech"+ i}>{tech + "."}</span> : <span key={"tech"+i}>{tech + ", "}</span>)}</div>
       </div>
       <div className="modal-footer">
         {data.deploy ? <button type="button" className="btn btn-info" onClick={() => window.open(data.deploy)}>Website</button> : null}
