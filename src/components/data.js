@@ -185,6 +185,19 @@ const javascriptProjects = [
     repo: "https://github.com/Awsthyn/ruby_minesweeper",
     deploy: "https://lit-hamlet-49836.herokuapp.com/",
   },
+  {
+    id: 14,
+    title: "Paxful cotization list",
+    description: "Compare BTC's buy and sell prices to obtain better exchange rates",
+    achievements: [
+      "5-10% better prices compared to conventional trades. Non-comercial use (low transaction volume).",
+      "Paxful's API integration.",
+      "Vercel deployment.",
+    ],
+    techs: ["Preact", "Bootstrap", "Vercel"],
+    repo: "https://github.com/Awsthyn/paxful",
+    deploy: "https://paxful-lovat.vercel.app/",
+  },
 
 ];
 
