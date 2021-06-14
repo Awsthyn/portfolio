@@ -188,7 +188,8 @@ const javascriptProjects = [
   {
     id: 14,
     title: "Paxful cotization list",
-    description: "Compare BTC's buy and sell prices to obtain better exchange rates",
+    description:
+      "Compare BTC's buy and sell prices to obtain better exchange rates",
     achievements: [
       "5-10% better prices compared to conventional trades. Non-comercial use (low transaction volume).",
       "Paxful's API integration.",
@@ -198,10 +199,29 @@ const javascriptProjects = [
     repo: "https://github.com/Awsthyn/paxful",
     deploy: "https://paxful-lovat.vercel.app/",
   },
-
 ];
 
-const pythonProjects = [  {
+const pythonProjects = [
+  {
+    id: 15,
+    title: "Python for Data Science",
+    description: "Bioinformatics Research Network' requirement",
+    achievements: ["Statistical analysis of a gapminder dataset"],
+    techs: ["Python", "Pandas", "Seaborn", "plotly", "Scipy"],
+    repo:
+      "https://github.com/Awsthyn/training-requirements/tree/main/Python%20for%20Data%20Science",
+  },
+  {
+    id: 16,
+    title: "REST API Flask",
+    description: "Bioinformatics Research Network' requirement",
+    achievements: ["REST API development", "Deployed to AWS server [Currently offline]"],
+    techs: ["Python", "Flask", "SQLAlchemy", "Marshmallow", "AWS" ],
+    repo:
+      "https://github.com/Awsthyn/training-requirements/tree/main/Back-End%20Web%20Development",
+    deploy: "https://documenter.getpostman.com/view/11925896/TzRNEUu8"
+  },
+  {
     id: 7,
     title: "Bioinformatics Algorithms",
     description: "Rosalind Practices",
@@ -266,7 +286,14 @@ const pythonProjects = [  {
       'Project developed to obtain "Data Analysis with Python Certification", using several technologies.',
     ],
     techs: ["Python", "Numpy"],
-    repo: "https://github.com/Awsthyn/Mean-Variance-Standard-Deviation-Calculator",
-  },]
+    repo:
+      "https://github.com/Awsthyn/Mean-Variance-Standard-Deviation-Calculator",
+  },
+];
 
-module.exports = { javascriptProjects, pythonProjects, formalEducation, courses };
+module.exports = {
+  javascriptProjects,
+  pythonProjects,
+  formalEducation,
+  courses,
+};

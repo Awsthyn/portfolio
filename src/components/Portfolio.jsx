@@ -39,13 +39,13 @@ const ProjectCard = ({ project }) => {
 export default function Portfolio() {
   return (
     <div className="p-4">
-      <h3 className="text-center mb-4">Web Development Projects</h3>
-      {javascriptProjects.map((project, i) => (
-        <ProjectCard key={`js-project-${i}`} {...{ project }} />
-      ))}
-      <h3 className="text-center mt-4 mb-4">Scientific Computing Projects</h3>
+      <h3 className="text-center mb-4">Scientific Computing Projects</h3>
       {pythonProjects.map((project, i) => (
         <ProjectCard key={`py-project-${i}`} {...{ project }} />
+      ))}
+      <h3 className="text-center mt-4 mb-4">Web Development Projects</h3>
+      {javascriptProjects.map((project, i) => (
+        <ProjectCard key={`js-project-${i}`} {...{ project }} />
       ))}
     </div>
   );
